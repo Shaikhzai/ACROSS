@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
+import { Link } from 'next/link';
 import { AnimatePresence } from 'framer-motion';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import NavStairsAni from './Nav/Stairs';
@@ -45,15 +46,15 @@ export default function index() {
             </div>
             <div className={styles.nav}>
                 <div className={styles.el}>
-                    <a>Work</a>
+                    <a href='/work'>Work</a>
                     <div className={styles.indicator}></div>
                 </div>
                 <div className={styles.el}>
-                    <a>About</a>
+                    <a href='/about'>About</a>
                     <div className={styles.indicator}></div>
                 </div>
                 <div className={styles.el}>
-                    <a>Contact</a>
+                    <a href='/contact'>Contact</a>
                     <div className={styles.indicator}></div>
                 </div>
             </div>

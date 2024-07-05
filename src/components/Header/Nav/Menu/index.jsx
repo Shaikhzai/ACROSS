@@ -6,19 +6,22 @@ import { useState } from 'react';
 
 const menu = [
   {
-    title: "Projects",
-    description: "To See Everything",
-    images: ['1.jpg', '2.jpg']
+    title: "Services",
+    description: "To Know What We Do",
+    images: ['1.jpg', '2.jpg'],
+    HREF: "/work"
   },
   {
-    title: "Agence",
-    description: "To Learn Everything",
-    images: ['5.jpg', '4.jpg']
+    title: "About",
+    description: "To Learn Everything About Us",
+    images: ['5.jpg', '4.jpg'],
+    HREF: "/about"
   },
   {
     title: "Contact",
     description: "To Send a FAX",
-    images: ['6.jpg', '7.jpg']
+    images: ['6.jpg', '7.jpg'],
+    HREF: "/contact"
   }
 ]
 
@@ -33,7 +36,9 @@ export default function index({closeMenu}) {
         <div className={styles.body}>
           {
             menu.map( (el, index) => {
-              return <Link data={el} index={index} key={index}/>
+              return <>
+              <Link data={el} index={index} key={index}/>
+              </>
             })
           }
         </div>

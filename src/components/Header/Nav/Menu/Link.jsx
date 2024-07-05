@@ -7,7 +7,7 @@ import gsap from 'gsap';
 import Link from 'next/link';
 
 export default function link({data, index}) {
-    const { title, description, images } = data;
+    const { title, description, images, HREF } = data;
     const outer = useRef(null);
     const inner = useRef(null);
 
@@ -45,7 +45,7 @@ export default function link({data, index}) {
           {...mountAnim}
           custom={index} 
           className={styles.el}>
-            <Link href="/">{title}</Link>
+            <Link href={HREF}>{title}</Link>
             <div ref={outer} className={styles.outer}>
                 <div ref={inner} className={styles.inner}>
 

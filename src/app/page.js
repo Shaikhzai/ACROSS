@@ -48,6 +48,7 @@ export default function Home() {
       <Description />
       <Section />
       <ZoomParallax />
+      <Description1/>
       <SectionTransition/>
       <Description1/>
       <SectionTransition/>
@@ -58,7 +59,8 @@ export default function Home() {
           <ServicesCard/>
         </div>
       </SmoothScroll>
-      {/* {
+      {/* for CardParallax_Component 
+      {
         projects.map( (project, i) => {
           const targetScale = 1 - ( (projects.length - i) * 0.05);
           return <CardParallax className={styles.main} key={`p_${i}`} i={i} {...project} progress={scrollYProgress} range={[i * .25, 1]} targetScale={targetScale}/>

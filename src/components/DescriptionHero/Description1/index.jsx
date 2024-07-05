@@ -1,5 +1,5 @@
 import styles from './style.module.css';
-import Cactus from '../../../../public/images/descrip1_assets/1.jpg'
+import Cactus from '../../../../public/images/descrip1_assets/2.jpg'
 
 import Image from 'next/image';
 
