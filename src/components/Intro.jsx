@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import BackgroundVid from '../../public/images/intro_assets/introVid.mp4';
+import BackgroundVid from '../../public/images/intro_assets/IntroVid.mp4';
 import styles from './style.module.css'
 
 import { useScroll, useTransform, motion } from 'framer-motion';
