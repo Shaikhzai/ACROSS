@@ -3,7 +3,7 @@ import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { AnimatePresence } from 'framer-motion';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import NavStairsAni from './nav/Stairs';
+import NavStairsAni from './Nav/Stairs';
 import NavMenu from './Nav/Menu'
 import gsap from 'gsap';
 

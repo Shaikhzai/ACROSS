@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { opacity, slideLeft, mountAnim } from '../../anime';
 import styles from './style.module.scss';
-import Link from './link';
+import Link from './Link';
 import { useState } from 'react';
 
 const menu = [
