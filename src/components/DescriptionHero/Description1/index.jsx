@@ -17,10 +17,10 @@ export default function index() {
                     />
                 </div>
                 <div className={styles.column}>
-                    <p>The flora is characterized by the presence of high elevation wetland, as well as yellow straw, broom sedge, tola de agua and tola amaia.</p>
+                    <p>At <span className="text-gray-600">ACROSS</span>, our hospitality shines through in our tourism and event management services. We are dedicated to creating unforgettable experiences, ensuring every guest feels welcome and valued. Our team meticulously plans and executes events, paying close attention to every detail to provide seamless and memorable experiences.</p>
                 </div>
                 <div className={styles.column}>
-                    <p>Some, like the southern viscacha, vicuña and Darwins rhea, are classified as endangered species. Others, such as Andean goose, horned coot, Andean gull, puna tinamou and the three flamingo species inhabiting in Chile (Andean flamingo, Chilean flamingo, and Jamess flamingo) are considered vulnerable.</p>
+                    <p>In tourism, we offer curated journeys that showcase the best destinations, combining luxury and comfort with authentic local experiences. Our expert guides and personalized itineraries ensure that every traveler enjoys a unique and enriching adventure.</p>
                 </div>
             </div>
         </div>

@@ -45,7 +45,7 @@ export default function link({data, index}) {
           {...mountAnim}
           custom={index} 
           className={styles.el}>
-            <Link href={HREF}>{title}</Link>
+            <Link href={HREF} target='_blank'>{title}</Link>
             <div ref={outer} className={styles.outer}>
                 <div ref={inner} className={styles.inner}>
 

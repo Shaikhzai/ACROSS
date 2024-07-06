@@ -26,7 +26,7 @@
     display: flex;
     height: 100%;
     width: 20%;
-    font-size: 1.6vw;
+    font-size: 1vw;
 }
 
 .column:last-of-type{
@@ -85,7 +85,7 @@
     display: flex;
     height: 100%;
     width: 20%;
-    font-size: 1.6vw;
+    font-size: 1.2vw;
 }
 
 .column:last-of-type{

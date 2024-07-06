@@ -7,6 +7,7 @@ import dynamic from 'next/dynamic';
 import Intro from '@/components/Intro';
 import Description from '@/components/Description';
 import Section from '@/components/Section';
+import Section2 from '@/components/Section2';
 import Description1 from '@/components/DescriptionHero/Description1';
 import Description2 from '@/components/DescriptionHero/Description2';
 import ZoomParallax from '../components/ZoomParallax/index'
@@ -50,9 +51,7 @@ export default function Home() {
       <ZoomParallax />
       <Description1/>
       <SectionTransition/>
-      <Description1/>
-      <SectionTransition/>
-      <Section />
+      <Section2 />
       <SmoothScroll>  
         <div className={styles.earth}>
           <Earth/>

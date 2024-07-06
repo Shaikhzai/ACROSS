@@ -16,7 +16,7 @@ export default function index({data, setSelectedProject}) {
 
 function Title({data, setSelectedProject}) {
 
-    const { title, speed, i } = data;
+    const { title, speed, i, HREF } = data;
     const container = useRef(null);
 
     const { scrollYProgress } = useScroll({
@@ -35,7 +35,7 @@ function Title({data, setSelectedProject}) {
                 onMouseLeave={() => {setSelectedProject(null)}}
             >
                 <motion.p style={{clipPath: clip}}>
-                    {title}
+                    <a href={HREF} target="_blank">{title}</a>
                 </motion.p>
                 <p>
                     {title}
