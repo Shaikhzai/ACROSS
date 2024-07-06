@@ -1,7 +1,7 @@
 'use client';
 import Image from "next/image";
-import Pic1 from '../../../public/images/SectionParallax_assets/6.jpg'
 import Pic2 from '../../../public/images/SectionParallax_assets/2.jpg'
+import Vid from '../../../public/images/SectionParallax_assets/vid1.mp4'
 import styles from './style.module.css'
 
 import { useScroll, useTransform, motion } from "framer-motion";
@@ -74,11 +74,18 @@ const Section2 = ({scrollYProgress}) => {
 
   return (
     <motion.div style={{scale, rotate}} className="relative h-screen">
-      <Image 
+      {/* <Image 
         src={Pic1}
         alt="img"
         placeholder="blur"
         fill
+      /> */}
+      <video 
+        src={Vid}
+        autoPlay
+        muted
+        loop
+        className="absolute inset-0 w-full h-full object-cover"
       />
     </motion.div>
   )
