@@ -54,7 +54,7 @@ export default function link({data, index}) {
                         return <div key={index} className={styles.container}>
                             <div className={styles.imageContainer}>
                                 <Image 
-                                    src={`/images/${images[0]}`}
+                                    src={`/images/Nav_assets/${images[0]}`}
                                     fill
                                     aalt="image"
                                 />
@@ -62,7 +62,7 @@ export default function link({data, index}) {
                             <p>{description}</p>
                             <div className={styles.imageContainer}>
                                 <Image 
-                                    src={`/images/${images[1]}`}
+                                    src={`/images/Nav_assets/${images[1]}`}
                                     fill
                                     alt="image"
                                 />

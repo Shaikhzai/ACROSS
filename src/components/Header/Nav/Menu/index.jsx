@@ -8,19 +8,19 @@ const menu = [
   {
     title: "Services",
     description: "To Know What We Do",
-    images: ['1.jpg', '2.jpg'],
+    images: ['4.jpg', '6.jpg'],
     HREF: "/work"
   },
   {
     title: "About",
     description: "To Learn Everything About Us",
-    images: ['5.jpg', '4.jpg'],
+    images: ['main.jpg', '1.jpg'],
     HREF: "/about"
   },
   {
     title: "Contact",
     description: "To Send a FAX",
-    images: ['6.jpg', '7.jpg'],
+    images: ['2.jpg', '2.jpg'],
     HREF: "/contact"
   }
 ]

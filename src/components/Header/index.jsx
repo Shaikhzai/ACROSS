@@ -46,15 +46,15 @@ export default function index() {
             </div>
             <div className={styles.nav}>
                 <div className={styles.el}>
-                    <a href='/work'>Work</a>
+                    <a href='/work' target='_blank'>Work</a>
                     <div className={styles.indicator}></div>
                 </div>
                 <div className={styles.el}>
-                    <a href='/about'>About</a>
+                    <a href='/about' target='_blank'>About</a>
                     <div className={styles.indicator}></div>
                 </div>
                 <div className={styles.el}>
-                    <a href='/contact'>Contact</a>
+                    <a href='/contact' target='_blank'>Contact</a>
                     <div className={styles.indicator}></div>
                 </div>
             </div>

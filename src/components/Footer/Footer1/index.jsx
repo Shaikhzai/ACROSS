@@ -21,7 +21,7 @@ export default function Footer() {
         <div ref={container}>
             <svg className="w-full mt-0 mb-40" viewBox="0 0 250 90">
                 <path fill="none" id="curve" d="m0,88.5c61.37,0,61.5-68,126.5-68,58,0,51,68,123,68"/>
-                <text className="text-[6px] uppercase" style={{fill: "red"}}>
+                <text className="text-[6px] uppercase" style={{fill: "#b7ab98"}}>
                     {
                         [...Array(3)].map((_, i) => {
                             return <textPath key={i} ref={ref => paths.current[i] = ref} startOffset={i * 40 + "%"} href="#curve"> The ACROSS Group At Your Service -</textPath>
@@ -68,17 +68,17 @@ const Nav = () => {
         <div className='flex shrink-0 gap-20'>
             <div className='flex flex-col gap-2'>
                 <h3 className='mb-2 uppercase text-[#ffffff80]'>About</h3>
-                <p>Home</p>
-                <p>Projects</p>
-                <p>Our Mission</p>
-                <p>Contact Us</p>
+                <a href="/">Home</a>
+                <a href="/work" target="_blank">Services</a>
+                <a href="/about" target="_blank">Our Mission</a>
+                <a href="/contact" target="_blank">Contact Us</a>
             </div>
             <div className='flex flex-col gap-2'>
                 <h3 className='mb-2 uppercase text-[#ffffff80]'>Connect</h3>
-                <p>Meta</p>
-                <p>Instagram</p>
-                <p>Twitter</p>
-                <p>LinkedIn</p>
+                <a href="" target="_blank">Meta</a>
+                <a href="" target="_blank">Instagram</a>
+                <a href="" target="_blank">Twitter</a>
+                <a href="" target="_blank">LinkedIn</a>
             </div>
         </div>
     )
