@@ -15,6 +15,7 @@ import CardParallax from '../components/CardParallax/index'
 import SectionTransition from '../components/SectionTransition/index'
 import SmoothScroll from '../components/3dEarth/SmoothScroll'
 import ServicesCard from '../components/3dEarth/ServiceOfferd'
+import Footer1 from '../components/Footer/Footer1'
 import { projects } from '../data'; 
 import styles from './page.module.scss'
 
@@ -58,14 +59,17 @@ export default function Home() {
           <ServicesCard/>
         </div>
       </SmoothScroll>
+      <Footer1/>
       {/* for CardParallax_Component 
       {
         projects.map( (project, i) => {
           const targetScale = 1 - ( (projects.length - i) * 0.05);
-          return <CardParallax className={styles.main} key={`p_${i}`} i={i} {...project} progress={scrollYProgress} range={[i * .25, 1]} targetScale={targetScale}/>
+          return <>
+          <CardParallax className={styles.main} key={`p_${i}`} i={i} {...project} progress={scrollYProgress} range={[i * .25, 1]} targetScale={targetScale}/>
+          <div className='h-screen'></div>
+          </> 
         })
       } */}
-      <div className='h-screen'></div>
     </main>
   );
 }
