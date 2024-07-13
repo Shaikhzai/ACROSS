@@ -9,7 +9,6 @@ import Description from '@/components/Description';
 import Section from '@/components/Section';
 import Section2 from '@/components/Section2';
 import Description1 from '@/components/DescriptionHero/Description1';
-import Description2 from '@/components/DescriptionHero/Description2';
 import ZoomParallax from '../components/ZoomParallax/index'
 import CardParallax from '../components/CardParallax/index'
 import SectionTransition from '../components/SectionTransition/index'
