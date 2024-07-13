@@ -10,12 +10,10 @@ import Section from '@/components/Section';
 import Section2 from '@/components/Section2';
 import Description1 from '@/components/DescriptionHero/Description1';
 import ZoomParallax from '../components/ZoomParallax/index'
-import CardParallax from '../components/CardParallax/index'
 import SectionTransition from '../components/SectionTransition/index'
 import SmoothScroll from '../components/3dEarth/SmoothScroll'
 import ServicesCard from '../components/3dEarth/ServiceOfferd'
 import Footer1 from '../components/Footer/Footer1'
-import { projects } from '../data'; 
 import styles from './page.module.scss'
 
 const Earth = dynamic(() => import('@/components/3dEarth/Earth'), {
@@ -24,13 +22,6 @@ const Earth = dynamic(() => import('@/components/3dEarth/Earth'), {
 })
 
 export default function Home() {
-
-  const container = useRef(null);
-
-  const { scrollYProgress } = useScroll({
-    target: container,
-    offset: ['start start', 'end end']
-  })
 
   useEffect( () => {
     const lenis = new Lenis()
@@ -59,16 +50,6 @@ export default function Home() {
         </div>
       </SmoothScroll>
       <Footer1/>
-      {/* for CardParallax_Component 
-      {
-        projects.map( (project, i) => {
-          const targetScale = 1 - ( (projects.length - i) * 0.05);
-          return <>
-          <CardParallax className={styles.main} key={`p_${i}`} i={i} {...project} progress={scrollYProgress} range={[i * .25, 1]} targetScale={targetScale}/>
-          <div className='h-screen'></div>
-          </> 
-        })
-      } */}
     </main>
   );
 }
