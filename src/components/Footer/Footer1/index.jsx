@@ -68,7 +68,7 @@ const Nav = () => {
         <div className='flex shrink-0 gap-20'>
             <div className='flex flex-col gap-2'>
                 <h3 className='mb-2 uppercase text-[#ffffff80]'>About</h3>
-                <a href="/">Home</a>
+                <a href="#">Home</a>
                 <a href="/work" target="_blank">Services</a>
                 <a href="/about" target="_blank">Our Mission</a>
                 <a href="/contact" target="_blank">Contact Us</a>

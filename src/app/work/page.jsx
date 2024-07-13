@@ -1,9 +1,26 @@
+'use client'
 import React from 'react'
+import { useEffect } from 'react'
+import Lenis from 'lenis'
 
-const page = () => {
+import Footer from '@/components/Footer/Footer1'
+
+export default function Page(){
+
+  useEffect( () => {
+
+    const lenis = new Lenis()
+
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+    requestAnimationFrame(raf)
+  }, [])
+
   return (
-    <div>Services Offerd</div>
-  )
+    <main>
+      <Footer/>
+    </main>
+  );
 }
-
-export default page
