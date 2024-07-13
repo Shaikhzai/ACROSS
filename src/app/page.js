@@ -1,7 +1,6 @@
 'use client';
-import { useRef, useEffect } from 'react';
+import { useEffect } from 'react';
 import Lenis from 'lenis'
-import { useScroll } from 'framer-motion';
 import dynamic from 'next/dynamic'; 
 
 import Intro from '@/components/Intro';
