@@ -1,14 +1,15 @@
 'use client';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
-import { Link } from 'next/link';
 import { AnimatePresence } from 'framer-motion';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import NavStairsAni from './Nav/Stairs';
 import NavMenu from './Nav/Menu'
 import gsap from 'gsap';
+import Image from 'next/image';
 
 import styles from './style.module.scss';
+import LoGo from '../../../public/images/acrossLogoPng.png'
 
 export default function index() {
     const header = useRef(null);
@@ -43,6 +44,7 @@ export default function index() {
                     <p className={styles.dennis}>LOGO</p>
                     <p className={styles.snellenberg}>HERE</p>
                 </div>
+                    {/* <Image src={LoGo}> */}
             </div>
             <div className={styles.nav}>
                 <div className={styles.el}>
