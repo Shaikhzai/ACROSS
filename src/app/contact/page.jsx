@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import Lenis from 'lenis'
 
 import Footer from '@/components/Footer/Footer1'
+import ContactCont from './ContactCont'
 
 const page = () => {
 
@@ -20,7 +21,8 @@ const page = () => {
 
   return (
     <main>
-      <Footer/>
+      <ContactCont />
+      {/* <Footer/> */}
     </main>
   );
 }
