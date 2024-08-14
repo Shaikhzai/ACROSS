@@ -40,7 +40,7 @@ export default function Footer() {
 const Content = ({scrollProgress}) => {
     const y = useTransform(scrollProgress, [0, 1], [-700, 0])
     return (
-        <div className="h-[500px] bg-[#2d2c2c] overflow-hidden">
+        <div className="h-[700px] bg-[#2d2c2c] overflow-hidden">
             <motion.div style={{y}} className="h-full bg-[#2d2c2c] flex justify-between py-8 px-12 w-full flex-col">
             <Section1 />
             <Section2 />
@@ -60,11 +60,12 @@ const Section1 = () => {
 const Section2 = () => {
     return (
         <div className='flex justify-between items-end'>
-            {/* <h1 className='text-[8.5vw] leading-[0.8] mt-10'>The ACROSS GROUP</h1> */}
-            <span className="w-20 h-20 ">
-                <Image src={Logo}/>
+            {/* <h1 className='text-[8vw] leading-[0.8] mt-10 mr-0'>The </h1> */}
+            <span className="h-full w-full">
+                <Image src={Logo} className="w-auto h-auto object-contain"/>
             </span>
-            <p>©Copyright</p>
+           {/*  <h1 className='text-[8vw] leading-[0.8] mt-10 ml-0'> GROUP</h1> */}
+            {/* <p>©Copyright</p> */}
         </div>
     )
 }
