@@ -6,7 +6,7 @@ export default function NeuroNoise() {
   const canvasRef = useRef(null);
   const pointer = useRef({ x: 0, y: 0, tX: 0, tY: 0 });
   const uniforms = useRef({});
-  const devicePixelRatio = Math.min(window.devicePixelRatio, 2);
+  //const devicePixelRatio = Math.min(window.devicePixelRatio, 2);
 
   useEffect(() => {
     const canvasEl = canvasRef.current;
