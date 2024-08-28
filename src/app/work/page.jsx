@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import Lenis from 'lenis'
 
 import Footer from '@/components/Footer/Footer1'
+import Carousel from './Slider'
 
 export default function Page(){
 
@@ -20,6 +21,18 @@ export default function Page(){
 
   return (
     <main>
+      <div className="flex justify-center mt-20"> 
+      <Carousel
+        images={[
+          "/images/work_assets/4.jpeg",
+          "/images/work_assets/5.jpeg",
+          "/images/work_assets/7.jpeg",
+          "/images/work_assets/8.jpeg",
+          "/images/work_assets/15.jpeg",
+          "/images/work_assets/11.jpeg",
+        ]}
+      />
+      </div>
       <Footer/>
     </main>
   );
