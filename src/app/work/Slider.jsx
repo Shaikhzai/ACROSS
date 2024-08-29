@@ -6,16 +6,16 @@ import React, {
 } from 'react';
 import gsap from 'gsap';
 
-import style from './style.module.scss';
+import style from './style1.module.scss';
 
-const Carousel = ({ images, timer = 2000 }) => {
+const Carousel = ({ images, timer = 2000, overlayText }) => {
   const [active, setActive] = useState(0);
   const $root = useRef();
 
   const nextItem = useCallback(() => {
     if (!$root.current) return;
 
-    const items = $root.current.querySelectorAll('.item'); // Correctly targeting items using ref
+    const items = $root.current.querySelectorAll('.item'); 
 
     const activeItem = items[active];
     const nextIndex = active < images.length - 1 ? active + 1 : 0;
@@ -31,7 +31,7 @@ const Carousel = ({ images, timer = 2000 }) => {
           y: '100%',
           zIndex: 0,
         });
-        setActive(nextIndex); // Updating active state after animation
+        setActive(nextIndex); 
       },
     });
 
@@ -67,6 +67,9 @@ const Carousel = ({ images, timer = 2000 }) => {
           />
         </div>
       ))}
+      <div className={style.overlayText}>
+        {overlayText}
+      </div>
     </div>
   );
 };

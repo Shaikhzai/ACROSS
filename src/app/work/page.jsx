@@ -28,9 +28,9 @@ export default function Page(){
           "/images/work_assets/5.jpeg",
           "/images/work_assets/7.jpeg",
           "/images/work_assets/8.jpeg",
-          "/images/work_assets/15.jpeg",
           "/images/work_assets/11.jpeg",
         ]}
+        overlayText="OUR SERVICES"
       />
       </div>
       <Footer/>

@@ -34,3 +34,15 @@
     height: 100%;
   }
 }
+
+.overlayText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  z-index: 100; // Ensure this is on top
+}
