@@ -5,6 +5,8 @@ import Lenis from 'lenis'
 
 import Footer from '@/components/Footer/Footer1'
 import Carousel from './Slider'
+import HorizonParralax from './HorrizontaParallax'
+import style from './style1.module.scss'
 
 export default function Page(){
 
@@ -33,6 +35,7 @@ export default function Page(){
         overlayText="OUR SERVICES"
       />
       </div>
+      <HorizonParralax/>
       <Footer/>
     </main>
   );
