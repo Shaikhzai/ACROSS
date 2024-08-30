@@ -74,18 +74,18 @@ const Nav = () => {
     return (
         <div className='flex shrink-0 gap-20'>
             <div className='flex flex-col gap-2'>
-                <h3 className='mb-2 uppercase text-[#ffffff80]'>About</h3>
-                <a href="/">Home</a>
-                <a href="/work" target="_blank">Services</a>
-                <a href="/about" target="_blank">Our Mission</a>
-                <a href="/contact" target="_blank">Contact Us</a>
-            </div>
-            <div className='flex flex-col gap-2'>
                 <h3 className='mb-2 uppercase text-[#ffffff80]'>Connect</h3>
                 <a href="" target="_blank">Meta</a>
                 <a href="" target="_blank">Instagram</a>
                 <a href="" target="_blank">Twitter</a>
                 <a href="" target="_blank">LinkedIn</a>
+            </div>
+            <div className='flex flex-col gap-2'>
+                <h3 className='mb-2 uppercase text-[#ffffff80]'>About</h3>
+                <a href="/">Home</a>
+                <a href="/work" target="_blank">Services</a>
+                {/* <a href="/about" target="_blank">Our Mission</a> */}
+                <a href="/contact" target="_blank">Contact Us</a>
             </div>
         </div>
     )
