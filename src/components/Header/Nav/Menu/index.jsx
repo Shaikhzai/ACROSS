@@ -11,12 +11,12 @@ const menu = [
     images: ['4.jpg', '6.jpg'],
     HREF: "/work"
   },
-  {
+  /* {
     title: "About",
     description: "To Learn Everything About Us",
     images: ['main.jpg', '1.jpg'],
     HREF: "/about"
-  },
+  }, */
   {
     title: "Contact",
     description: "To Send a FAX",
@@ -48,10 +48,10 @@ export default function index({closeMenu}) {
           {...mountAnim} 
           custom={0.5} 
           className={styles.footer}>
-          <a>FB</a>
-          <a>IG</a>
+          {/* <a>FB</a> */}
+          <a className={styles.a}>IG</a>
           <a>IN</a>
-          <a>BE</a>
+          <a>X</a>
         </motion.div>
 
     </motion.div>
