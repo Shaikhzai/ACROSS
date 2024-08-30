@@ -6,7 +6,6 @@ import Lenis from 'lenis'
 import Footer from '@/components/Footer/Footer1'
 import Carousel from './Slider'
 import HorizonParralax from './HorrizontaParallax'
-import style from './style1.module.scss'
 
 export default function Page(){
 
@@ -23,7 +22,9 @@ export default function Page(){
 
   return (
     <main>
-      <div className="flex justify-center mt-20"> 
+      <div className='h-screen overflow-hidden'> 
+
+      <div className='relative h-full'> 
       <Carousel
         images={[
           "/images/work_assets/4.jpeg",
@@ -34,6 +35,7 @@ export default function Page(){
         ]}
         overlayText="OUR SERVICES"
       />
+      </div>
       </div>
       <HorizonParralax/>
       <Footer/>

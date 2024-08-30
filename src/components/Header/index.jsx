@@ -9,7 +9,7 @@ import gsap from 'gsap';
 import Image from 'next/image';
 
 import styles from './style.module.scss';
-import LoGo from '../../../public/images/acrossLogoPng1.png'
+import LoGo from '../../../public/images/acrossLogo2a.png'
 
 export default function index() {
     const header = useRef(null);
@@ -44,7 +44,9 @@ export default function index() {
                     <p className={styles.dennis}>LOGO</p>
                     <p className={styles.snellenberg}>HERE</p>
                 </div> */}
-                    <Image src={LoGo}/>
+                    <a href='/'>
+                        <Image src={LoGo}/>
+                    </a>
             </div>
             <div className={styles.nav}>
                 <div className={styles.el}>

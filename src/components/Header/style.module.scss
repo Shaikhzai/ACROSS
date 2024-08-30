@@ -66,6 +66,9 @@
             position: relative;
             z-index: 1;
             padding: 15px;
+            font-size: large;
+            color: whitesmoke;
+            mix-blend-mode: difference;
             cursor: pointer;
             &:hover{
                 .indicator{
