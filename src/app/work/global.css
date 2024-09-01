@@ -3,4 +3,5 @@ body {
   overflow: hidden;
   --mainColor: black;
   --inverseColor: white;
+  font-family: sans-serif;
 }

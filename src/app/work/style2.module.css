@@ -1,0 +1,30 @@
+/* components/StickySection.module.css */
+.main1,
+.main2 {
+  height: 100vh;
+}
+.main1 {
+  background: #227C70;
+}
+.main2 {
+  background: #88A47C;
+}
+.box {
+  height: 300px;
+  margin: 50px 0;
+  background-color: #E6E2C3;
+}
+.sticky {
+  position: sticky;
+  background: yellow;
+}
+.stickyTop {
+  top: 0;
+}
+.stickyBottom {
+  bottom: 0;
+}
+.title {
+  padding: 20px;
+  background: yellow;
+}
