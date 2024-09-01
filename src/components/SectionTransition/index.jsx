@@ -59,7 +59,7 @@ const Section1 = ({scrollYProgress}) => {
                     <p>From grand events to intimate gatherings, and from luxurious vacations to off-the-beaten-path explorations, <span className="text-gray-500">ACROSS</span> is committed to delivering exceptional service. Our hospitality is reflected in our warm, professional approach and our unwavering dedication to exceeding our clients' expectations, making every moment with us truly special.</p>
                 </div>
                 <div className={styles.column}>
-                    <p>Some, like the southern viscacha, vicuña and Darwins rhea, are classified as endangered species. Others, such as Andean goose, horned coot, Andean gull, puna tinamou and the three flamingo species inhabiting in Chile (Andean flamingo, Chilean flamingo, and Jamess flamingo) are considered vulnerable.</p>
+                    <p>At <span className="text-gray-500">ACROSS</span>, we are committed to delivering exceptional services across a diverse range of industries. Our expertise and passion drive us to innovate and provide tailored solutions that meet the unique needs of our clients.</p>
                 </div>
             </div>
         </div>
