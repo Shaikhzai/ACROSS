@@ -20,8 +20,6 @@
   width: 100%;
   height: 100%;
   aspect-ratio: 16/9;
-  border-radius: 20px;
-  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, .3);
 }
 
 .item {
@@ -88,4 +86,83 @@ SCSS for HorizontalPrallax
   user-select: none;
   border-right: 1px solid rgb(0, 0, 0, 0.06);
   background-color: rgba(255, 255, 255, 1);
+}
+
+/*--------------------
+SCSS for LinkText
+--------------------*/
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: 100px;
+  width: 100vw;
+}
+
+.wrap {
+  padding: 10vw;
+  font-size: 3vw;
+  margin-top: -100px;
+  display: flex;
+  gap: 1vw;
+  
+  img {
+    width: 20%;
+    height: auto;
+  }
+}
+
+.section {
+  position: relative;
+  background: var(--inverseColor);
+  color: var(--mainColor);
+  
+  header {
+    background: linear-gradient(to bottom, var(--inverseColor), transparent);
+  }
+  
+  &.black {
+    --mainColor: white;
+    --inverseColor: black;
+  }
+}
+
+.a {
+  color: transparent;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  &:before, &:after {
+    content: attr(data-text);
+    position: absolute;
+    color: var(--mainColor);
+    border-bottom: 2px solid var(--mainColor);
+    transition: all .3s ease-in-out .1s;
+    pointer-events: none;
+  }
+  &:after {
+    font-family: sans-serif;
+    font-size: .65em;
+    top: .38em;
+    left: 0;
+    transform: translateY(100%) skewY(3deg);
+    opacity: 0;
+    text-transform: uppercase;
+    transition-delay: 0s;
+  }
+  
+  &:hover {
+    &:before {
+      transform: translateY(-100%) skewY(-3deg);
+      opacity: 0;
+      transition-delay: 0s;
+    }
+    &:after {
+      transform: translateY(0%) skewY(0deg);
+      opacity: 1;
+      transition-delay: .1s;
+    }
+  }
 }

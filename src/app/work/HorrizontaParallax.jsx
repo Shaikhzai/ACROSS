@@ -121,7 +121,7 @@ import React, {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl eros,
         maximus vel velit eu, mattis porttitor dui. Praesent fringilla, purus quis
         euismod venenatis, sem erat pulvinar risus, non auctor est turpis interdum
-        sem. Curabitur ut accumsan libero. Praesent sit amet tristique ipsum. Ut
+        sem. Curabitur ut accumsan libero. <a href="#" className={style.a}>Blah </a>Praesent sit amet tristique ipsum. Ut
         quis quam sit amet orci hendrerit cursus eget in nibh. Vivamus non nulla
         nec felis facilisis aliquam et ac nibh. Donec id lobortis leo.
       </div>
@@ -134,7 +134,6 @@ import React, {
   const App = () => {
     return (
       <div>
-        <Spacer />
         <PinnedImages
           images={[
             "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YW5pbWFsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",

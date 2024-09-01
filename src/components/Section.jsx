@@ -14,7 +14,7 @@ export default function Section() {
     return (
         <div
         ref={container} 
-        className='relative flex items-center justify-center h-screen overflow-hidden'
+        className='relative flex items-center justify-center h-screen overflow-hidden bg-black'
         style={{clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)"}}
         >
         <div className='relative z-10 p-20 mix-blend-difference text-white w-full h-full flex flex-col justify-between'>

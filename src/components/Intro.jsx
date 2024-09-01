@@ -41,7 +41,7 @@ const animate = () => {
     const y = useTransform(scrollYProgress, [0, 1], ["0vh", "150vh"])
   
     return (
-      <div className='h-screen overflow-hidden'>
+      <div className='h-screen overflow-hidden bg-black'>
         <motion.div style={{y}} className='relative h-full'>
           {/* <Image src={Background} fill alt="image" style={{objectFit: "cover"}}/> */}
           <video autoPlay loop muted className={styles.videoBackground}>
