@@ -1,7 +1,8 @@
 import Image from 'next/image';
-import Background from '../../public/images/intro_assets/introImg2.jpg';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { useRef } from 'react';
+
+import Background from '../../public/images/intro_assets/introImg2.jpg';
 
 export default function Section() {
     const container = useRef();
