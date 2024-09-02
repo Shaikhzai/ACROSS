@@ -10,40 +10,40 @@ import arrow from '../../../../public/images/arrow.svg'
 const data = [
     {
         title: "Events",
-        description: "Working on the Next-Generation HMI Experience without no driving experience.",
+        description: "Crafting unforgettable experiences and journeys across the globe.",
         speed: 0.5,
         HREF: "/work"
     },
     {
         title: "Tourism",
-        description: "Developed the Future of UFC Sports Ecosystem despite not being a sports fan.",
+        description: "Crafting unforgettable experiences and journeys across the globe.",
         speed: 0.5,
         HREF: "/work"
     },
     {
         title: "Real Estate",
-        description: "Defined the visual concept and design language for the Lincoln Zephyr 2022 but never seen it in real life.",
+        description: "Connecting you with prime properties for your dream investments.",
         speed: 0.67,
         HREF: "/work"
     },
     {
         title: "Transportation",
-        description: "I was just one person on a massive team that created an entire Royal Caribbean eco-system.",
+        description: "Ensuring safe and efficient transit solutions tailored to your needs.",
         speed: 0.8,
         HREF: "/work"
     },
-    {
+    /* {
         title: "Foodstuff Trading",
-        description: "Designed a 1M+ users product utilizing my best personal experience: sleeping.",
+        description: "Delivering quality food products from farm to fork.",
         speed: 0.8,
         HREF: "/work"
     },
     {
         title: "E-Commerce",
-        description: "Explored the Future of Fantasy Football while being in a country where football means a total different sport.",
+        description: "Your go-to online destination for diverse and premium products.",
         speed: 0.8,
         HREF: "/work"
-    }
+    } */
 ]
 
 export default function Projects() {
