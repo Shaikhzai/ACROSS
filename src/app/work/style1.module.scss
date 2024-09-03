@@ -114,6 +114,20 @@ SCSS for LinkText
   }
 }
 
+.wrap1 {
+  padding: 10vw;
+  font-size: 3vw;
+  margin-top: -100px;
+  display: flex;
+  flex-direction: row-reverse;  // This moves the image to the left side
+  gap: 1vw;
+  
+  img {
+    width: 20%;
+    height: auto;
+  }
+}
+
 .section {
   position: relative;
   background: var(--inverseColor);
