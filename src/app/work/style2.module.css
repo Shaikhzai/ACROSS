@@ -16,7 +16,7 @@
 }
 .sticky {
   position: sticky;
-  background: yellow;
+  background: #b7ab98;
 }
 .stickyTop {
   top: 0;
@@ -26,5 +26,5 @@
 }
 .title {
   padding: 20px;
-  background: yellow;
+  background: #b7ab98;
 }
