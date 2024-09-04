@@ -69,3 +69,24 @@
     object-fit: cover;
     z-index: -1;
   }
+
+  /* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .sliderContainer {
+    bottom: 15%;
+  }
+
+  .slider p {
+    font-size: 12vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .sliderContainer {
+    bottom: 10%;
+  }
+
+  .slider p {
+    font-size: 16vw;
+  }
+}

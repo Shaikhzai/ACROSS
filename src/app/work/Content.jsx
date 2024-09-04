@@ -87,7 +87,7 @@ const StickySection = () => {
         </div>
       </div>
 
-{/*       Foodstuff trading Content
+{/*       Foodstuff trading Content */}
 
         <div>
         <section className={`${styles.sticky} ${styles.stickyTop}`}>
@@ -109,7 +109,7 @@ const StickySection = () => {
         </div>
 
       </div>
-
+{/* 
       E-Commerce Content
 
         <div>
