@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "The Across Group",
-  description: "Website created by Zaid",
+  description: "Your premier partner for a world of possibilities",
 };
 
 export default function RootLayout({ children }) {
