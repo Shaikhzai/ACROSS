@@ -202,9 +202,9 @@ export default function NeuroNoise() {
         </div>
         <div className={styles.section}>
           <div>
-            <a href="" target="_blank" rel="noopener noreferrer" className={styles.a}>Instagram</a>
-            <a href="" target="_blank" rel="noopener noreferrer" className={styles.a}>LinkedIn</a>
-            <a href="" target="_top" className={styles.a}>X (Twitter)</a>
+            <a href="https://www.instagram.com/theacrossgroup/" target="_blank" rel="noopener noreferrer" className={styles.a}>Instagram</a>
+            {/* <a href="" target="_blank" rel="noopener noreferrer" className={styles.a}>LinkedIn</a> */}
+            <a href="https://x.com/theacrossgrp" target="_blank" className={styles.a}>X (Twitter)</a>
           </div>
         </div>
       </div>

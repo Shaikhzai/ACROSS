@@ -19,8 +19,8 @@ export default function Section() {
         style={{clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)"}}
         >
         <div className='relative z-10 p-20 sm:p-16 md:p-20 mix-blend-difference text-white w-full h-full flex flex-col justify-between'>
-            <p className='text-[10vw] sm:text-[8vw] md:text-[6vw] lg:text-[4vw] xl:text-[3vw] uppercase mix-blend-difference'>ABOUT US</p>
-            <p className='w-full sm:w-[70vw] md:w-[60vw] lg:w-[50vw] xl:w-[40vw] text-[6vw] sm:text-[4vw] md:text-[3vw] lg:text-[2.5vw] xl:text-[2vw] self-end uppercase mix-blend-difference'>Welcome to ACROSS, With a diverse portfolio of services, we are dedicated to connecting people and opportunities across the globe. At ACROSS, we are committed to delivering exceptional service, driving innovation, and fostering long-lasting relationships. Join us on a journey that knows no boundaries.</p>
+            <p className='text-[8vw] sm:text-[7vw] md:text-[5vw] uppercase mix-blend-difference'>ABOUT US</p>
+            <p className='w-[50vw] sm:w-[70vw] md:w-[50vw] text-[5vw] sm:text-[3vw] md:text-[2vw] self-end uppercase mix-blend-difference'>Welcome to ACROSS, With a diverse portfolio of services, we are dedicated to connecting people and opportunities across the globe. At ACROSS, we are committed to delivering exceptional service, driving innovation, and fostering long-lasting relationships. Join us on a journey that knows no boundaries.</p>
         </div>
         <div className='fixed top-[-10vh] left-0 h-[120vh] w-full'>
             <motion.div style={{y}} className='relative w-full h-full'>
