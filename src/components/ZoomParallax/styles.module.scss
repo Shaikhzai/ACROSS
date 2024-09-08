@@ -19,19 +19,17 @@
                 position: relative;
                 width: 25vw;
                 height: 25vh;
-                @media (min-width: 640px) {
-                    width: 40vw;
-                    height: 25vh;
+                @media (max-width: 768px) {
+                    width: 50vw;
+                    height: 30vh;
                 }
-                @media (min-width: 768px) {
-                    width: 30vw;
-                    height: 20vh;
+
+                @media (max-width: 640px) {
+                    width: 60vw;
+                    height: 30vh;
                 }
-                @media (min-width: 1024px) {
-                    width: 25vw;
-                    height: 25vh;
-                }
-                img{
+
+                img {
                     object-fit: cover;
                 }
             }
@@ -42,7 +40,18 @@
                     left: 5vw;
                     width: 35vw;
                     height: 30vh;
-                }        
+
+                    @media (max-width: 768px) {
+                        width: 50vw;
+                        height: 25vh;
+                        top: -20vh;
+                    }
+
+                    @media (max-width: 640px) {
+                        width: 60vw;
+                        top: -15vh;
+                    }
+                }
             }
 
             &:nth-of-type(3){

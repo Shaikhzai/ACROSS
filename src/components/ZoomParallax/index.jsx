@@ -1,3 +1,7 @@
+import Image from 'next/image';
+import { useScroll, useTransform, motion} from 'framer-motion';
+import { useRef } from 'react';
+
 import styles from './styles.module.scss';
 import Picture1 from '../../../public/images/ZoomParallax_assets/7.jpg';
 import Picture2 from '../../../public/images/ZoomParallax_assets/8.jpg';
@@ -6,10 +10,6 @@ import Picture4 from '../../../public/images/ZoomParallax_assets/9.jpg'
 import Picture5 from '../../../public/images/ZoomParallax_assets/main.jpg'
 import Picture6 from '../../../public/images/ZoomParallax_assets/5.jpg'
 import Picture7 from '../../../public/images/ZoomParallax_assets/2.jpg'
-
-import Image from 'next/image';
-import { useScroll, useTransform, motion} from 'framer-motion';
-import { useRef } from 'react';
 
 export default function Index() {
     
@@ -27,11 +27,11 @@ export default function Index() {
 
     const pictures = [
         {
-            src: Picture1,
+            src: Picture7,
             scale: scale4
         },
         {
-            src: Picture2,
+            src: Picture5,
             scale: scale5
         },
         {
@@ -39,11 +39,11 @@ export default function Index() {
             scale: scale6
         },
         {
-            src: Picture4,
+            src: Picture1,
             scale: scale5
         },
         {
-            src: Picture5,
+            src: Picture2,
             scale: scale6
         },
         {
@@ -51,7 +51,7 @@ export default function Index() {
             scale: scale8
         },
         {
-            src: Picture7,
+            src: Picture4,
             scale: scale9
         }
     ]
