@@ -58,7 +58,7 @@ export default function index() {
                     <div className={styles.indicator}></div>
                 </div> */}
                 <div className={styles.el}>
-                    <a href='/contact' target='_blank'>Contact</a>
+                    <a href='/contact' target='_blank'><b>Contact</b></a>
                     <div className={styles.indicator}></div>
                 </div>
             </div>
